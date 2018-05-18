@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+target 'BasePodFoundationDemo' do
+
+pod 'BasePodFoundation', '~> 0.0.5’
+end
