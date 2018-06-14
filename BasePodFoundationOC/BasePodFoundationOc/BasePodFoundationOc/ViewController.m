@@ -1,14 +1,13 @@
 //
 //  ViewController.m
-//  BasePodFoundationDemo
+//  BasePodFoundationOc
 //
 //  Created by Miugodigital on 2018/5/18.
 //  Copyright © 2018年 zhangle. All rights reserved.
 //
 
 #import "ViewController.h"
-//#import <BasePodFoundation/ZLview.h>
-//#import <BasePodFoundationHear.h>
+
 @interface ViewController ()
 
 @end
@@ -18,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-  
 }
 
 
