@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.tabBarController = [[ZLTabBarViewController alloc] init];
+    self.window.rootViewController = self.tabBarController;
+    // 设置这个窗口有主窗口并显示
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
